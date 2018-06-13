@@ -1,0 +1,33 @@
+{
+  "name": "cloudfoundry-and-nodejs-with-vault-demo",
+  "version": "1.0.0",
+  "description": "This is a simple example of an integration between a REST API powered by NodeJS and Hashicorp Vault.",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacphi/cloudfoundry-and-nodejs-with-vault-demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rest-api",
+    "vault"
+  ],
+  "author": "Chris Phillipson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pacphi/cloudfoundry-and-nodejs-with-vault-demo/issues"
+  },
+  "homepage": "https://github.com/pacphi/cloudfoundry-and-nodejs-with-vault-demo#readme",
+  "dependencies": {
+    "cfenv": "^1.1.0",
+    "express": "^4.16.3",
+    "node-vault": "^0.8.0"
+  },
+  "engines": {
+    "node": "10.3.0",
+    "yarn": "1.7.0"
+  }
+}
