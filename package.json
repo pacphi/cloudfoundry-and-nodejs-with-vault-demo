@@ -23,7 +23,7 @@
   "homepage": "https://github.com/pacphi/cloudfoundry-and-nodejs-with-vault-demo#readme",
   "dependencies": {
     "cfenv": "^1.1.0",
-    "express": "^4.16.3",
+    "express": "^5.1.0",
     "node-vault": "^0.10.5"
   },
   "engines": {
