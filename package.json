@@ -24,7 +24,7 @@
   "dependencies": {
     "cfenv": "^1.1.0",
     "express": "^5.1.0",
-    "node-vault": "^0.10.5"
+    "node-vault": "^0.12.0"
   },
   "engines": {
     "node": "10.3.0",
